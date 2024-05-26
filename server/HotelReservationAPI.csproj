@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.4" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.25.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation" Version="8.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.19" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="AbstractServices\" />
+    <None Remove="ConcreteServices\" />
+    <None Remove="AbstractServices\MongoServiceAbstract\" />
+    <None Remove="ConcreteServices\MongoServiceConcrete\" />
+    <None Remove="AbstractServices\UserServiceAbstract\" />
+    <None Remove="ConcreteServices\UserServiceConcrete\" />
+    <None Remove="Models\" />
+    <None Remove="Helpers\" />
+    <None Remove="AbstractServices\ProductServiceAbstract\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AbstractServices\" />
+    <Folder Include="ConcreteServices\" />
+    <Folder Include="AbstractServices\MongoServiceAbstract\" />
+    <Folder Include="ConcreteServices\MongoServiceConcrete\" />
+    <Folder Include="AbstractServices\UserServiceAbstract\" />
+    <Folder Include="ConcreteServices\UserServiceConcrete\" />
+    <Folder Include="Models\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="AbstractServices\ProductServiceAbstract\" />
+  </ItemGroup>
+</Project>
