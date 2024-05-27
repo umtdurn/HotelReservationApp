@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/umut/Desktop/web-project/server/HotelReservationAPI.csproj": {}
+    "/Users/umut/Desktop/HotelReservationApp/server/HotelReservationAPI.csproj": {}
   },
   "projects": {
-    "/Users/umut/Desktop/web-project/server/HotelReservationAPI.csproj": {
+    "/Users/umut/Desktop/HotelReservationApp/server/HotelReservationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/umut/Desktop/web-project/server/HotelReservationAPI.csproj",
+        "projectUniqueName": "/Users/umut/Desktop/HotelReservationApp/server/HotelReservationAPI.csproj",
         "projectName": "HotelReservationAPI",
-        "projectPath": "/Users/umut/Desktop/web-project/server/HotelReservationAPI.csproj",
+        "projectPath": "/Users/umut/Desktop/HotelReservationApp/server/HotelReservationAPI.csproj",
         "packagesPath": "/Users/umut/.nuget/packages/",
-        "outputPath": "/Users/umut/Desktop/web-project/server/obj/",
+        "outputPath": "/Users/umut/Desktop/HotelReservationApp/server/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/umut/.nuget/NuGet/NuGet.Config"

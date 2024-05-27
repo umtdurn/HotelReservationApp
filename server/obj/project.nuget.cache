@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OKciwJJ245BGq3WSRVB732J+kq8NCnVxfw2qVFyGMsoieB6txuYuOCHSKyxB6PxrQ03G3jFDBwsrDTjJvkDqkQ==",
+  "dgSpecHash": "yPvHPpI4qUkchEmR15maD2u+84HuJ/L4v+dPzdsxtJt9UvQqmsTQAGb6jaSP4PPduZdP9TEBt7NuipFiHw1PBA==",
   "success": true,
-  "projectFilePath": "/Users/umut/Desktop/web-project/server/HotelReservationAPI.csproj",
+  "projectFilePath": "/Users/umut/Desktop/HotelReservationApp/server/HotelReservationAPI.csproj",
   "expectedPackageFiles": [
     "/Users/umut/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/Users/umut/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",
